@@ -9,7 +9,9 @@
 .head_banner{
 	background-image: url(imeges/newyork_city.jpg);
 	background-repeat: no-repeat;
-	background-image: block;
+	-webkit-background-size:cover;
+       background-size:cover;
+      -moz-background-size:cover;
 }
 .head_banner img{}
 .wrapper{
